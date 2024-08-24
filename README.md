@@ -53,25 +53,38 @@ npx live-server
 Isso abrirá o projeto no seu navegador padrão. Ou se quiser ver somente o funcional, eu hospedei o projeto no GitHub Pages: (link do githubpages)
 
 ## 🧑🏻‍💻Tecnologias utilizadas:
-
+<div style="flex-basis: 48%;">
 <img align="center" alt="Js" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
 
 <img align="center" alt="HTML" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
 
 <img align="center" alt="CSS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
 
-<img align="center" alt="TS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-plain.svg">
+<img align="center" alt="TS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-plain.svg">  
+</div>
+<br>
+<br>
 
 ## 🔄️ Melhorias Futuras:
-
 Planejo adicionar as seguintes funcionalidades:
-
 - Adicionar horários de outras regiões/países, dando opção de escolha ao usuário.
+<<<<<<< HEAD
+=======
+<br>
+<br>
+>>>>>>> db7874a521a281b8e4e74386872aa94f20b0d5b9
 
 ## 📝 Licença:
-
 Este projeto está licenciado sob a licença MIT.
+<br>
+<br>
 
 ## 🧑🏻‍💻 Autor:
+<<<<<<< HEAD
 
 - **Leonardo Braga** - [<img src='./src/assets/images/logo_braga_code.png' />](https://github.com/code-front-braga)
+=======
+<a href="https://github.com/code-front-braga" style="text-align: justify;">
+<img src="./src/assets/images/logo_braga_code.png" alt="Logo" style="width: 160px;">
+</a>
+>>>>>>> db7874a521a281b8e4e74386872aa94f20b0d5b9
