@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.section-container {
+  width: 100%;
+  min-height: 100vh;
+
+  display: flex;
+
+  > .bg-image {
+    width: 100%;
+    height: 100%;
+
+    position: absolute;
+
+    object-fit: cover;
+    object-position: center;
+
+    z-index: -1;
+  }
+
+  > .wrapper {
+    margin: auto;
+
+    font-family: 'Inter', sans-serif;
+
+    display: flex;
+    flex-direction: column;
+
+    > .season-info-content {
+      color: #000;
+
+      width: fit-content;
+      margin-bottom: 4rem;
+
+      display: flex;
+      align-items: center;
+      gap: 2rem;
+      padding: 2rem;
+
+      > span {
+        font-size: 2rem;
+      }
+
+      > .img-season {
+        width: 4rem;
+      }
+    }
+
+    > .clock-container {
+      display: flex;
+      flex-direction: column;
+      gap: 2rem;
+
+      > .date-info {
+        color: #fafafa;
+
+        font-size: 2rem;
+        font-weight: normal;
+        letter-spacing: 0.2rem;
+        width: fit-content;
+
+        padding: 0.6rem;
+      }
+
+      .time-display {
+        color: #fafafa;
+
+        filter: drop-shadow(0 1rem 1.4rem #000);
+
+        font-family: 'Orbitron', sans-serif;
+        font-size: 20rem;
+        text-align: center;
+
+        padding: 2rem;
+      }
+    }
+  }
+}
+
+footer {
+  width: 100%;
+
+  font-size: 1.8rem;
+
+  position: absolute;
+  bottom: 0;
+
+  display: flex;
+  padding: 2rem;
+
+  > .footer-content {
+    background: #00000090;
+    color: #fafafa;
+    border-radius: 4px;
+
+    padding-left: 2rem;
+
+    margin: auto;
+
+    display: flex;
+    align-items: center;
+  }
+}

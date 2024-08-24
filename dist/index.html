@@ -2,8 +2,48 @@
 <html lang="pt-br">
   <head>
     <meta charset="UTF-8" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Orbitron:wght@400..900&display=swap"
+      rel="stylesheet"
+    />
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+
+    <!-- styles -->
+    <link rel="stylesheet" href="../src/assets/css/styles.css" />
+
+    <script type="module" src="/dist/js/index.js"></script>
+
+    <title>Basic Clock</title>
   </head>
-  <body></body>
+  <body>
+    <section class="section-container">
+      <img class="bg-image" alt="Imagens dos períodos do dia" />
+
+      <div class="wrapper">
+        <div class="season-info-content">
+          <span></span>
+          <img class="img-season" alt="Imagens das estações do ano" />
+        </div>
+
+        <div class="clock-container">
+          <h2 class="date-info"></h2>
+
+          <h1 class="time-display">10 : 35 : 13</h1>
+        </div>
+      </div>
+
+      <footer>
+        <div class="footer-content">
+          Developed by |
+          <a href="https://github.com/code-front-braga" target="_blank"
+            ><img src="../src/assets/images/logo_braga_code.png" alt="logo_braga_code"
+          /></a>
+        </div>
+      </footer>
+    </section>
+  </body>
 </html>
