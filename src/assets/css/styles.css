@@ -51,6 +51,8 @@ html {
 
 .img-season {
   width: 6rem;
+
+  filter: drop-shadow(0 0 1rem #000);
 }
 
 .date-info {
