@@ -21,7 +21,7 @@ Para ter acesso a esse projeto, faça os seguintes passos:
 Clone o repositório em sua máquina local:
 
 ```bash
-git clone https://github.com/seu-usuario/seu-repositorio.git
+git clone https://github.com/code-front-braga/PR-Basic_Clock.git
 ```
 
 #### **1. Instalando as dependências:**
@@ -62,17 +62,21 @@ Isso abrirá o projeto no seu navegador padrão, permitindo que você interaja c
 
 <img align="center" alt="TS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-plain.svg">  
 </div>
+<br>
+<br>
+
 ## 🔄️ Melhorias Futuras:
-
 Planejo adicionar as seguintes funcionalidades:
-
 - Adicionar horários de outras regiões/países, dando opção de escolha ao usuário.
-- .
+<br>
+<br>
 
 ## 📝 Licença:
-
 Este projeto está licenciado sob a licença MIT.
+<br>
+<br>
 
 ## 🧑🏻‍💻 Autor:
-
-- **Leonardo Braga** - [<img src='./src/assets/images/logo.png' />](https://github.com/code-front-braga)
+<a href="https://github.com/code-front-braga" style="text-align: justify;">
+<img src="./src/assets/images/logo_braga_code.png" alt="Logo" style="width: 160px;">
+</a>
