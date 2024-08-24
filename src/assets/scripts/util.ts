@@ -39,7 +39,7 @@ export function getSeasonOfYear(currentMonth: number) {
   };
 }
 
-export function formatTimeComponent(currentUnitOfTime: string) {
+export function formatTimeComponent(currentUnitOfTime: number) {
   return String(currentUnitOfTime).padStart(2, '0');
 }
 
