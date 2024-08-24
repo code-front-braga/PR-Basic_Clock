@@ -21,12 +21,12 @@ Para ter acesso a esse projeto, faça os seguintes passos:
 Clone o repositório em sua máquina local:
 
 ```bash
-git clone https://github.com/seu-usuario/seu-repositorio.git
+git clone https://github.com/code-front-braga/PR-Basic_Clock.git
 ```
 
 #### **1. Instalando as dependências:**
 
-Para instalar as dependências, faça o seguinte comando:
+Para instalar as dependências de desenvolvimento, faça o seguinte comando:
 
 ```bash
 npm i
@@ -36,7 +36,7 @@ npm i
 
 #### **1. Compilar TypeScript:**
 
-Para compilar os arquivos TypeScript, execute o seguinte comando:
+Para compilar os arquivos TypeScript para JavaScript, execute o seguinte comando:
 
 ```bash
 npm run build
@@ -50,7 +50,7 @@ Se você estiver usando uma extensão como o Live Server no Visual Studio Code, 
 npx live-server
 ```
 
-Isso abrirá o projeto no seu navegador padrão, permitindo que você interaja com a calculadora. Ou se quiser ver somente o funcional, eu hospedei o projeto no GitHub Pages: (link do githubpages)
+Isso abrirá o projeto no seu navegador padrão. Ou se quiser ver somente o funcional, eu hospedei o projeto no GitHub Pages: (link do githubpages)
 
 ## 🧑🏻‍💻Tecnologias utilizadas:
 
@@ -67,7 +67,6 @@ Isso abrirá o projeto no seu navegador padrão, permitindo que você interaja c
 Planejo adicionar as seguintes funcionalidades:
 
 - Adicionar horários de outras regiões/países, dando opção de escolha ao usuário.
-- .
 
 ## 📝 Licença:
 
@@ -75,4 +74,4 @@ Este projeto está licenciado sob a licença MIT.
 
 ## 🧑🏻‍💻 Autor:
 
-- **Leonardo Braga** - [<img src='./src/assets/images/logo.png' />](https://github.com/code-front-braga)
+- **Leonardo Braga** - [<img src='./src/assets/images/logo_braga_code.png' />](https://github.com/code-front-braga)
