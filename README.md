@@ -2,7 +2,12 @@
 
 <img src='./src/assets/images/print_clock_screen.png' alt='Print do Projeto' />
 
-Esse projeto trata-se de um relógio web com informações adicionais da data completa atual e da estação atual.
+Sobre o Projeto:
+Este projeto apresenta um relógio que exibe o horário em tempo real, ajustado ao fuso horário de Brasília, com as seguintes funcionalidades:
+
+- Plano de fundo dinâmico: A imagem de fundo muda automaticamente conforme o período do dia.
+- Estação do ano dinâmica: O texto e as imagens correspondentes às estações do ano são alteradas automaticamente, refletindo a estação atual.
+- Data completa: A data é atualizada em tempo real, exibindo sempre a data correta e em conformidade com a passagem dos dias.
 
 ## 📌 Começando
 
