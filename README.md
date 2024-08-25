@@ -2,7 +2,7 @@
 
 <img src='./src/assets/images/print_clock_screen.png' alt='Print do Projeto' />
 
-Sobre o Projeto:
+## Sobre o Projeto:
 Este projeto apresenta um relógio que exibe o horário em tempo real, ajustado ao fuso horário de Brasília, com as seguintes funcionalidades:
 
 - Plano de fundo dinâmico: A imagem de fundo muda automaticamente conforme o período do dia.
