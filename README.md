@@ -50,7 +50,7 @@ Se você estiver usando uma extensão como o Live Server no Visual Studio Code, 
 npx live-server
 ```
 
-Isso abrirá o projeto no seu navegador padrão. Ou se quiser ver somente o funcional, eu hospedei o projeto no GitHub Pages: (link do githubpages)
+Isso abrirá o projeto no seu navegador padrão. Ou se quiser ver somente o funcional, eu hospedei o projeto no GitHub Pages: [Web Clock](https://code-front-braga.github.io/PR-Basic_Clock/)
 
 ## 🧑🏻‍💻Tecnologias utilizadas:
 
