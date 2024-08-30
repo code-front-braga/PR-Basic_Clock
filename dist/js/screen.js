@@ -3,11 +3,11 @@ import { formatSeasonMessage, formatTimeComponent, getSeasonOfYear, getTimeDetai
 export function updateClockDisplay() {
     const { currentHour, currentMinute, currentSecond } = getTimeDetails();
     const clockTimeElement = document.querySelector('.time-display');
-    return (clockTimeElement.textContent = `
-    ${formatTimeComponent(currentHour)} : 
-    ${formatTimeComponent(currentMinute)} : 
-    ${formatTimeComponent(currentSecond)}
-  `);
+    clockTimeElement.textContent = formatTimeComponent({
+        currentHour,
+        currentMinute,
+        currentSecond,
+    });
 }
 export function updatePeriodImage() {
     const periodImageElement = document.querySelector('.bg-image');
@@ -46,7 +46,7 @@ export function updateDateInfo() {
     const longDateFormat = now.toLocaleDateString('pt-br', {
         dateStyle: 'long',
     });
-    return (dateInfoElement.textContent = `Olá! Hoje é ${currentDay}, ${longDateFormat}`);
+    dateInfoElement.textContent = `Olá! Hoje é ${currentDay}, ${longDateFormat}`;
 }
 export function updateSeasonInfo() {
     const seasonInfoElement = document.querySelector('.season-info-content span');

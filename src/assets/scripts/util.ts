@@ -39,8 +39,16 @@ export function getSeasonOfYear(currentMonth: number) {
   };
 }
 
-export function formatTimeComponent(currentUnitOfTime: number) {
-  return String(currentUnitOfTime).padStart(2, '0');
+export interface FormatTimeComponentProps {
+  currentHour: number;
+  currentMinute: number;
+  currentSecond: number;
+}
+
+export function formatTimeComponent({ currentHour, currentMinute, currentSecond }: FormatTimeComponentProps) {
+  return `${String(currentHour).padStart(2, '0')} : ${String(currentMinute).padStart(2, '0')} : ${String(
+    currentSecond,
+  ).padStart(2, '0')}`;
 }
 
 export function formatSeasonMessage(currentSeason: string) {

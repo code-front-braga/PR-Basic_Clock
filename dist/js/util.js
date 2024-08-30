@@ -35,8 +35,8 @@ export function getSeasonOfYear(currentMonth) {
         isFall,
     };
 }
-export function formatTimeComponent(currentUnitOfTime) {
-    return String(currentUnitOfTime).padStart(2, '0');
+export function formatTimeComponent({ currentHour, currentMinute, currentSecond }) {
+    return `${String(currentHour).padStart(2, '0')} : ${String(currentMinute).padStart(2, '0')} : ${String(currentSecond).padStart(2, '0')}`;
 }
 export function formatSeasonMessage(currentSeason) {
     return currentSeason !== 'Primavera' ? `Estamos no ${currentSeason}` : `Estamos na ${currentSeason}`;
