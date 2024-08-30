@@ -84,21 +84,22 @@ footer {
   padding: 2rem;
 }
 
-.footer-content a img {
-  width: 18rem;
+.footer-content a .svg {
+  width: 16rem;
 }
 
 .footer-content {
-  background: #00000090;
+  background: #000;
   color: #fafafa;
   border-radius: 4px;
 
-  padding-left: 2rem;
+  padding: 0.6rem 2rem;
 
   margin: auto;
 
   display: flex;
   align-items: center;
+  gap: 2rem;
 }
 
 @media only screen and (max-width: 1240px) {
