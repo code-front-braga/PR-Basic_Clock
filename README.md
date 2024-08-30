@@ -3,6 +3,7 @@
 <img src='./src/assets/images/print_clock_screen.png' alt='Print do Projeto' />
 
 ## Sobre o Projeto:
+
 Este projeto apresenta um relógio que exibe o horário em tempo real, ajustado ao fuso horário de Brasília, com as seguintes funcionalidades:
 
 - Plano de fundo dinâmico: A imagem de fundo muda automaticamente conforme o período do dia.
@@ -86,5 +87,5 @@ Este projeto está licenciado sob a licença MIT.
 ## 🧑🏻‍💻 Autor:
 
 <a href="https://github.com/code-front-braga" style="text-align: justify;">
-<img src="./src/assets/images/logo_braga_code.png" alt="Logo" style="width: 160px;">
+<img src="./src/assets/images/F_L_2.svg" alt="Logo" style="width: 160px;">
 </a>
