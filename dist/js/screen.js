@@ -67,7 +67,7 @@ export function updateSeasonInfo() {
             seasonImgElement.src = seasonImages.fallImg;
             break;
         default:
-            seasonImgElement.textContent = formatSeasonMessage('Inverno');
+            seasonInfoElement.textContent = formatSeasonMessage('Inverno');
             seasonImgElement.src = seasonImages.winterImg;
             break;
     }

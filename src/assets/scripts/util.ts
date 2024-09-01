@@ -28,14 +28,14 @@ export function getTimeOfDayPeriod(currentHour: number) {
 }
 
 export function getSeasonOfYear(currentMonth: number) {
-  const isSpring = currentMonth >= 2 && currentMonth < 5;
-  const isSummer = currentMonth >= 5 && currentMonth < 8;
-  const isFall = currentMonth >= 8 && currentMonth < 11;
+  const isFall = currentMonth >= 3 && currentMonth <= 6;
+  const isSummer = currentMonth >= 12 && currentMonth <= 3;
+  const isSpring = currentMonth >= 9 && currentMonth <= 11;
 
   return {
-    isSpring,
-    isSummer,
     isFall,
+    isSummer,
+    isSpring,
   };
 }
 
